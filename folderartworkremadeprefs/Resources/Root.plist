@@ -94,7 +94,7 @@
 			<key>cellClass</key>
 			<string>GcColorPickerCell</string>
 			<key>label</key>
-			<string>Bolder Color</string>
+			<string>Border Color</string>
 			<key>defaults</key>
 			<string>com.nightwind.folderartworkremadeprefs</string>
 			<key>key</key>
