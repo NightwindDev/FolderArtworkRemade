@@ -39,8 +39,6 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
 
-	self.accessoryType = 1;
-
     [NSLayoutConstraint activateConstraints:@[
         [leftImageView.centerYAnchor constraintEqualToAnchor:self.centerYAnchor],
         [leftImageView.leadingAnchor constraintEqualToAnchor:self.leadingAnchor constant:15],
@@ -55,10 +53,6 @@
         [handleLabel.leadingAnchor constraintEqualToAnchor:leftImageView.trailingAnchor constant:10],
         [handleLabel.heightAnchor constraintEqualToConstant:20],
     ]];
-}
-
-- (UITableViewCellAccessoryType)accessoryType {
-	return UITableViewCellAccessoryDisclosureIndicator;
 }
 
 @end
